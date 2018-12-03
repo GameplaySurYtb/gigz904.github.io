@@ -1,0 +1,69 @@
+.carousel{
+    width: 100%;
+    height: 100%;
+}
+
+.galeriecard{
+    height: 480px;
+    width: 640px;
+
+    margin: 10px;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer{
+    height: 25px;
+    text-align: center;
+    color: white;
+    background-color: darkgray;
+    margin: 0;
+    padding: 0;
+}
+
+.p-footer{
+    color: white;
+    text-align: center;
+}
+footer{
+    margin: 0;
+    padding: 0;
+}
+.adress{
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 655px){
+
+    .galeriecard{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 495px){
+
+    .galeriecard{
+        width: 100%;
+        height: 300px;;
+    }
+
+    .col-lg-4{
+        margin: 15px;
+    }
+
+
+}
+
+@media only screen and (min-width: 656px){
+
+    .brlg{
+
+        display: none;
+    }
+}
